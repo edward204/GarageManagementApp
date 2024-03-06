@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EG\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj": {}
+    "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EG\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj": {
+    "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EG\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
+        "projectUniqueName": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
         "projectName": "GarageManagementApp",
-        "projectPath": "C:\\Users\\EG\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
+        "projectPath": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
         "packagesPath": "C:\\Users\\EG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EG\\source\\repos\\GarageManagementApp\\GarageManagementApp\\obj\\",
+        "outputPath": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
