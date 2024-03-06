@@ -159,9 +159,9 @@
             // picboxLogo
             // 
             picboxLogo.BackgroundImage = (Image)resources.GetObject("picboxLogo.BackgroundImage");
-            picboxLogo.Location = new Point(12, 12);
+            picboxLogo.Location = new Point(12, 13);
             picboxLogo.Name = "picboxLogo";
-            picboxLogo.Size = new Size(476, 366);
+            picboxLogo.Size = new Size(476, 436);
             picboxLogo.TabIndex = 9;
             picboxLogo.TabStop = false;
             // 
