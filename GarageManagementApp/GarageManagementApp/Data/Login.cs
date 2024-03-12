@@ -14,6 +14,7 @@ namespace GarageManagementApp.Data
     [Table("Login")]
     public class Login
     {
+        [Key]
         public int Login_id { get; set; }
         public String Login_username { get; set; }
 

@@ -40,6 +40,8 @@
             panel2 = new Panel();
             lblLogin = new Label();
             picboxLogo = new PictureBox();
+            lstTest = new ListBox();
+            btnTest = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picboxLogo).BeginInit();
@@ -165,11 +167,32 @@
             picboxLogo.TabIndex = 9;
             picboxLogo.TabStop = false;
             // 
+            // lstTest
+            // 
+            lstTest.FormattingEnabled = true;
+            lstTest.ItemHeight = 15;
+            lstTest.Location = new Point(12, 22);
+            lstTest.Name = "lstTest";
+            lstTest.Size = new Size(287, 199);
+            lstTest.TabIndex = 10;
+            // 
+            // btnTest
+            // 
+            btnTest.Location = new Point(362, 115);
+            btnTest.Name = "btnTest";
+            btnTest.Size = new Size(75, 23);
+            btnTest.TabIndex = 11;
+            btnTest.Text = "Load";
+            btnTest.UseVisualStyleBackColor = true;
+            btnTest.Click += btnTest_Click;
+            // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(834, 461);
+            Controls.Add(btnTest);
+            Controls.Add(lstTest);
             Controls.Add(picboxLogo);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -198,5 +221,7 @@
         private Panel panel2;
         private Label lblLogin;
         private PictureBox picboxLogo;
+        private ListBox lstTest;
+        private Button btnTest;
     }
 }

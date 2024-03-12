@@ -135,6 +135,7 @@
             btnCreateuser.TabIndex = 9;
             btnCreateuser.Text = "Create User";
             btnCreateuser.UseVisualStyleBackColor = true;
+            btnCreateuser.Click += btnCreateuser_Click;
             // 
             // txtboxConfirmpassword
             // 
