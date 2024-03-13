@@ -106,6 +106,7 @@
             btnLogin.TabIndex = 11;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
             // 
             // txtboxPassword
             // 
@@ -201,7 +202,6 @@
             MinimizeBox = false;
             Name = "frmLogin";
             Text = "Login";
-            Load += frmLogin_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);

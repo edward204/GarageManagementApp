@@ -24,7 +24,7 @@ namespace GarageManagementApp
 
             // if the connection to the database is successful
             if (context.Database.CanConnect())
-                if(txtboxCreatepassword.Text == txtboxConfirmpassword.Text && txtboxConfirmpassword.Text != "")
+                if (txtboxCreatepassword.Text == txtboxConfirmpassword.Text && txtboxConfirmpassword.Text != "")
                 {
                     // setup the new object read for insertion
                     var Login = new Login();
@@ -53,6 +53,13 @@ namespace GarageManagementApp
                 {
                     MessageBox.Show("Your passwords don't match!");
                 }
+        }
+
+        private void lnklblLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form frmLogin = new frmLogin();
+            frmLogin.Show();
+            this.Close();
         }
     }
 }

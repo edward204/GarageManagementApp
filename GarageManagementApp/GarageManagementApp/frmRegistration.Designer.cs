@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistration));
             panel1 = new Panel();
+            lnklblLogin = new LinkLabel();
+            lblLogin = new Label();
             lblJobRole = new Label();
             txtboxJobRole = new TextBox();
             txtboxSurname = new TextBox();
@@ -54,6 +56,8 @@
             // panel1
             // 
             panel1.BackColor = Color.Gainsboro;
+            panel1.Controls.Add(lnklblLogin);
+            panel1.Controls.Add(lblLogin);
             panel1.Controls.Add(lblJobRole);
             panel1.Controls.Add(txtboxJobRole);
             panel1.Controls.Add(txtboxSurname);
@@ -69,8 +73,31 @@
             panel1.Controls.Add(lblUsername);
             panel1.Location = new Point(508, 102);
             panel1.Name = "panel1";
-            panel1.Size = new Size(300, 400);
+            panel1.Size = new Size(300, 430);
             panel1.TabIndex = 0;
+            // 
+            // lnklblLogin
+            // 
+            lnklblLogin.AutoSize = true;
+            lnklblLogin.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lnklblLogin.Location = new Point(176, 396);
+            lnklblLogin.Margin = new Padding(2, 0, 2, 0);
+            lnklblLogin.Name = "lnklblLogin";
+            lnklblLogin.Size = new Size(48, 19);
+            lnklblLogin.TabIndex = 14;
+            lnklblLogin.TabStop = true;
+            lnklblLogin.Text = "Log In";
+            lnklblLogin.LinkClicked += lnklblLogin_LinkClicked;
+            // 
+            // lblLogin
+            // 
+            lblLogin.AutoSize = true;
+            lblLogin.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            lblLogin.Location = new Point(78, 396);
+            lblLogin.Name = "lblLogin";
+            lblLogin.Size = new Size(102, 19);
+            lblLogin.TabIndex = 13;
+            lblLogin.Text = "Already a user?";
             // 
             // lblJobRole
             // 
@@ -221,7 +248,7 @@
             picboxLogo.Image = (Image)resources.GetObject("picboxLogo.Image");
             picboxLogo.Location = new Point(2, 40);
             picboxLogo.Name = "picboxLogo";
-            picboxLogo.Size = new Size(500, 462);
+            picboxLogo.Size = new Size(500, 492);
             picboxLogo.TabIndex = 2;
             picboxLogo.TabStop = false;
             // 
@@ -229,7 +256,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(834, 539);
+            ClientSize = new Size(834, 563);
             Controls.Add(picboxLogo);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -264,5 +291,7 @@
         private TextBox txtboxSurname;
         private Label lblJobRole;
         private TextBox txtboxJobRole;
+        private LinkLabel lnklblLogin;
+        private Label lblLogin;
     }
 }
