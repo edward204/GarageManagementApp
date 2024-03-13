@@ -84,7 +84,7 @@
             lnklblLogin.Margin = new Padding(2, 0, 2, 0);
             lnklblLogin.Name = "lnklblLogin";
             lnklblLogin.Size = new Size(48, 19);
-            lnklblLogin.TabIndex = 14;
+            lnklblLogin.TabIndex = 9;
             lnklblLogin.TabStop = true;
             lnklblLogin.Text = "Log In";
             lnklblLogin.LinkClicked += lnklblLogin_LinkClicked;
@@ -115,7 +115,7 @@
             txtboxJobRole.Location = new Point(42, 300);
             txtboxJobRole.Name = "txtboxJobRole";
             txtboxJobRole.Size = new Size(220, 27);
-            txtboxJobRole.TabIndex = 8;
+            txtboxJobRole.TabIndex = 7;
             // 
             // txtboxSurname
             // 
@@ -123,7 +123,7 @@
             txtboxSurname.Location = new Point(42, 245);
             txtboxSurname.Name = "txtboxSurname";
             txtboxSurname.Size = new Size(220, 27);
-            txtboxSurname.TabIndex = 7;
+            txtboxSurname.TabIndex = 6;
             // 
             // lblSurname
             // 
@@ -141,7 +141,7 @@
             txtboxFirstname.Location = new Point(42, 191);
             txtboxFirstname.Name = "txtboxFirstname";
             txtboxFirstname.Size = new Size(220, 27);
-            txtboxFirstname.TabIndex = 6;
+            txtboxFirstname.TabIndex = 5;
             // 
             // lblFirstname
             // 
@@ -159,7 +159,7 @@
             btnCreateuser.Location = new Point(78, 345);
             btnCreateuser.Name = "btnCreateuser";
             btnCreateuser.Size = new Size(138, 39);
-            btnCreateuser.TabIndex = 9;
+            btnCreateuser.TabIndex = 8;
             btnCreateuser.Text = "Create User";
             btnCreateuser.UseVisualStyleBackColor = true;
             btnCreateuser.Click += btnCreateuser_Click;
@@ -171,7 +171,7 @@
             txtboxConfirmpassword.Name = "txtboxConfirmpassword";
             txtboxConfirmpassword.PlaceholderText = "Confirm Password";
             txtboxConfirmpassword.Size = new Size(220, 27);
-            txtboxConfirmpassword.TabIndex = 5;
+            txtboxConfirmpassword.TabIndex = 4;
             // 
             // lblConfirmpassword
             // 

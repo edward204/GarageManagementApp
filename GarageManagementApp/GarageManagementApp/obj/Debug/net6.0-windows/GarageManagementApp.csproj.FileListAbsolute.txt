@@ -151,3 +151,4 @@ C:\Users\edwar\Source\Repos\GarageManagementApp\GarageManagementApp\GarageManage
 C:\Users\edwar\Source\Repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\ref\GarageManagementApp.dll
 C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmMainMenu.resources

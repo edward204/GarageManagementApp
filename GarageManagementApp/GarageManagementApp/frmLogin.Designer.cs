@@ -66,7 +66,7 @@
             lnklblSignup.Location = new Point(192, 269);
             lnklblSignup.Name = "lnklblSignup";
             lnklblSignup.Size = new Size(57, 19);
-            lnklblSignup.TabIndex = 6;
+            lnklblSignup.TabIndex = 5;
             lnklblSignup.TabStop = true;
             lnklblSignup.Text = "Sign Up";
             lnklblSignup.LinkClicked += lnklblSignup_LinkClicked;
@@ -103,7 +103,7 @@
             btnLogin.Location = new Point(93, 219);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(120, 39);
-            btnLogin.TabIndex = 11;
+            btnLogin.TabIndex = 4;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
@@ -115,7 +115,7 @@
             txtboxPassword.Name = "txtboxPassword";
             txtboxPassword.PlaceholderText = "Password";
             txtboxPassword.Size = new Size(220, 39);
-            txtboxPassword.TabIndex = 10;
+            txtboxPassword.TabIndex = 3;
             // 
             // txtboxUsername
             // 
@@ -124,7 +124,7 @@
             txtboxUsername.Name = "txtboxUsername";
             txtboxUsername.PlaceholderText = "Username";
             txtboxUsername.Size = new Size(220, 39);
-            txtboxUsername.TabIndex = 9;
+            txtboxUsername.TabIndex = 2;
             // 
             // lblPassword
             // 

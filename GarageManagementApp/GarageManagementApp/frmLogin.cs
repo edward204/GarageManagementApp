@@ -59,7 +59,7 @@ namespace GarageManagementApp
             var context = new DataContext();
 
             // if the connection to the database is successful
-            if (context.Database.CanConnect()) 
+            if (context.Database.CanConnect())
             {
                 // grab only the record which matches the username
                 Login loginObj =
@@ -77,7 +77,8 @@ namespace GarageManagementApp
                         MessageBox.Show("Login Successful");
 
                         // go to main menu
-                        
+                        Form frmMainMenu = new frmMainMenu();
+                        frmMainMenu.Show();
 
                     }
                     else
