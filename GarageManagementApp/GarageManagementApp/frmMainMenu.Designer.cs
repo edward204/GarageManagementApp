@@ -206,7 +206,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             IsMdiContainer = true;
             Name = "frmMainMenu";
             RightToLeft = RightToLeft.No;

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\customers\\frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\customers\\frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\vehicles\\frmcreatevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\vehicles\\frmcreatevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\vehicles\\frmcreatevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\vehicles\\frmcreatevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\vehicles\\frmvehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\vehicles\\frmvehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\vehicles\\frmvehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\vehicles\\frmvehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\customers\\frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -15,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\customers\\frmcreatecustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\frmmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|c:\\users\\eg\\documents\\github\\garagemanagementapp\\garagemanagementapp\\garagemanagementapp\\data\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D72F16D-3EC7-44F3-9C02-2163C5BA2E09}|GarageManagementApp\\GarageManagementApp.csproj|solutionrelative:garagemanagementapp\\data\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +38,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmVehicles.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmVehicles.cs",
+              "RelativeDocumentMoniker": "GarageManagementApp\\Vehicles\\frmVehicles.cs",
+              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmVehicles.cs [Design]",
+              "RelativeToolTip": "GarageManagementApp\\Vehicles\\frmVehicles.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:06:13.76Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -53,91 +65,88 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmCreateCustomer.cs",
-              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCreateCustomer.cs",
-              "RelativeDocumentMoniker": "GarageManagementApp\\Customers\\frmCreateCustomer.cs",
-              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCreateCustomer.cs",
-              "RelativeToolTip": "GarageManagementApp\\Customers\\frmCreateCustomer.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T10:15:21.445Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCustomers.cs",
-              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCustomers.cs",
-              "RelativeDocumentMoniker": "GarageManagementApp\\Customers\\frmCustomers.cs",
-              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCustomers.cs",
-              "RelativeToolTip": "GarageManagementApp\\Customers\\frmCustomers.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAewE8AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T08:42:53.705Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmCreateVehicle.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmCreateVehicle.cs",
+              "RelativeDocumentMoniker": "GarageManagementApp\\Vehicles\\frmCreateVehicle.cs",
+              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmCreateVehicle.cs [Design]",
+              "RelativeToolTip": "GarageManagementApp\\Vehicles\\frmCreateVehicle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T12:38:20.049Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCreateVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmCreateVehicle.cs",
+              "RelativeDocumentMoniker": "GarageManagementApp\\Vehicles\\frmCreateVehicle.cs",
+              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmCreateVehicle.cs",
+              "RelativeToolTip": "GarageManagementApp\\Vehicles\\frmCreateVehicle.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:07:04.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmVehicles.cs",
+              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmVehicles.cs",
+              "RelativeDocumentMoniker": "GarageManagementApp\\Vehicles\\frmVehicles.cs",
+              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Vehicles\\frmVehicles.cs",
+              "RelativeToolTip": "GarageManagementApp\\Vehicles\\frmVehicles.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAewBYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T14:06:15.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmCustomers.cs [Design]",
               "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCustomers.cs",
               "RelativeDocumentMoniker": "GarageManagementApp\\Customers\\frmCustomers.cs",
               "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCustomers.cs [Design]",
               "RelativeToolTip": "GarageManagementApp\\Customers\\frmCustomers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T08:37:29.669Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmRegistration.cs",
-              "RelativeDocumentMoniker": "GarageManagementApp\\frmRegistration.cs",
-              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmRegistration.cs",
-              "RelativeToolTip": "GarageManagementApp\\frmRegistration.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowBoAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T10:04:04.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmRegistration.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmRegistration.cs",
-              "RelativeDocumentMoniker": "GarageManagementApp\\frmRegistration.cs",
-              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmRegistration.cs [Design]",
-              "RelativeToolTip": "GarageManagementApp\\frmRegistration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T10:04:02.231Z",
+              "WhenOpened": "2024-05-22T14:06:23.082Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmLogin.cs",
-              "RelativeDocumentMoniker": "GarageManagementApp\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmLogin.cs",
-              "RelativeToolTip": "GarageManagementApp\\frmLogin.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Data\\Vehicle.cs",
+              "RelativeDocumentMoniker": "GarageManagementApp\\Data\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Data\\Vehicle.cs",
+              "RelativeToolTip": "GarageManagementApp\\Data\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T09:33:44.854Z"
+              "WhenOpened": "2024-05-22T14:05:37.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMainMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmMainMenu.cs",
-              "RelativeDocumentMoniker": "GarageManagementApp\\frmMainMenu.cs",
-              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\frmMainMenu.cs [Design]",
-              "RelativeToolTip": "GarageManagementApp\\frmMainMenu.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "frmCreateCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCreateCustomer.cs",
+              "RelativeDocumentMoniker": "GarageManagementApp\\Customers\\frmCreateCustomer.cs",
+              "ToolTip": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\Customers\\frmCreateCustomer.cs",
+              "RelativeToolTip": "GarageManagementApp\\Customers\\frmCreateCustomer.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowB4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T09:17:57.495Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-22T12:37:51.471Z",
+              "EditorCaption": ""
             }
           ]
         }

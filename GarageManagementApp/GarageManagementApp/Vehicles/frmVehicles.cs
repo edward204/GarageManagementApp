@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GarageManagementApp.Vehicles;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace GarageManagementApp
         public frmVehicles()
         {
             InitializeComponent();
+        }
+
+        private void btnCreateVehicle_Click(object sender, EventArgs e)
+        {
+            Form frmCreateVehicle = new frmCreateVehicle();
+            frmCreateVehicle.Show();
+
         }
     }
 }

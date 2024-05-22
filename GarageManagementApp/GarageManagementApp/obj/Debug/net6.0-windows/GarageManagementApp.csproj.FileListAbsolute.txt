@@ -158,3 +158,4 @@ C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManag
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmJobs.resources
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmVehicles.resources
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmCreateCustomer.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Vehicles.frmCreateVehicle.resources

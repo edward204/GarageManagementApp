@@ -28,33 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            btnCreateVehicle = new Button();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // tableLayoutPanel1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(546, 294);
-            label1.Name = "label1";
-            label1.Size = new Size(49, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Vehicles";
+            tableLayoutPanel1.ColumnCount = 6;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.724F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19.906292F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 13.044713F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 13.044713F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20.55629F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 16.72399F));
+            tableLayoutPanel1.Controls.Add(btnCreateVehicle, 2, 1);
+            tableLayoutPanel1.Dock = DockStyle.Top;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 16F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 76F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(1235, 72);
+            tableLayoutPanel1.TabIndex = 1;
+            // 
+            // btnCreateVehicle
+            // 
+            btnCreateVehicle.BackColor = Color.FromArgb(64, 64, 64);
+            btnCreateVehicle.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCreateVehicle.ForeColor = Color.White;
+            btnCreateVehicle.Location = new Point(454, 19);
+            btnCreateVehicle.Name = "btnCreateVehicle";
+            btnCreateVehicle.Size = new Size(155, 47);
+            btnCreateVehicle.TabIndex = 0;
+            btnCreateVehicle.Text = "CREATE";
+            btnCreateVehicle.UseVisualStyleBackColor = false;
+            btnCreateVehicle.Click += btnCreateVehicle_Click;
             // 
             // frmVehicles
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(1235, 730);
             ControlBox = false;
-            Controls.Add(label1);
+            Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "frmVehicles";
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Button btnCreateVehicle;
     }
 }
