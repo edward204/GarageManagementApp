@@ -32,6 +32,8 @@
             lblSignup = new Label();
             lnklblSignup = new LinkLabel();
             panel1 = new Panel();
+            btnShowpassword = new Button();
+            btnHidepassword = new Button();
             lblUsername = new Label();
             btnLogin = new Button();
             txtboxPassword = new TextBox();
@@ -40,8 +42,6 @@
             panel2 = new Panel();
             lblLogin = new Label();
             picboxLogo = new PictureBox();
-            lstTest = new ListBox();
-            btnTest = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picboxLogo).BeginInit();
@@ -74,6 +74,8 @@
             // panel1
             // 
             panel1.BackColor = Color.Gainsboro;
+            panel1.Controls.Add(btnShowpassword);
+            panel1.Controls.Add(btnHidepassword);
             panel1.Controls.Add(lblUsername);
             panel1.Controls.Add(btnLogin);
             panel1.Controls.Add(txtboxPassword);
@@ -86,12 +88,38 @@
             panel1.Size = new Size(300, 320);
             panel1.TabIndex = 7;
             // 
+            // btnShowpassword
+            // 
+            btnShowpassword.BackColor = Color.White;
+            btnShowpassword.FlatAppearance.BorderColor = Color.Gray;
+            btnShowpassword.FlatStyle = FlatStyle.Flat;
+            btnShowpassword.Image = (Image)resources.GetObject("btnShowpassword.Image");
+            btnShowpassword.Location = new Point(247, 125);
+            btnShowpassword.Name = "btnShowpassword";
+            btnShowpassword.Size = new Size(39, 39);
+            btnShowpassword.TabIndex = 3;
+            btnShowpassword.UseVisualStyleBackColor = false;
+            btnShowpassword.Click += btnShowpassword_Click;
+            // 
+            // btnHidepassword
+            // 
+            btnHidepassword.BackColor = Color.White;
+            btnHidepassword.FlatAppearance.BorderColor = Color.Gray;
+            btnHidepassword.FlatStyle = FlatStyle.Flat;
+            btnHidepassword.Image = (Image)resources.GetObject("btnHidepassword.Image");
+            btnHidepassword.Location = new Point(247, 125);
+            btnHidepassword.Name = "btnHidepassword";
+            btnHidepassword.Size = new Size(39, 39);
+            btnHidepassword.TabIndex = 9;
+            btnHidepassword.UseVisualStyleBackColor = false;
+            btnHidepassword.Click += btnHidepassword_Click;
+            // 
             // lblUsername
             // 
             lblUsername.AutoSize = true;
             lblUsername.BackColor = Color.Gainsboro;
             lblUsername.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblUsername.Location = new Point(44, 21);
+            lblUsername.Location = new Point(14, 20);
             lblUsername.Name = "lblUsername";
             lblUsername.Size = new Size(75, 20);
             lblUsername.TabIndex = 7;
@@ -111,27 +139,28 @@
             // txtboxPassword
             // 
             txtboxPassword.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            txtboxPassword.Location = new Point(44, 126);
+            txtboxPassword.Location = new Point(14, 125);
             txtboxPassword.Name = "txtboxPassword";
+            txtboxPassword.PasswordChar = '*';
             txtboxPassword.PlaceholderText = "Password";
-            txtboxPassword.Size = new Size(220, 39);
-            txtboxPassword.TabIndex = 3;
+            txtboxPassword.Size = new Size(272, 39);
+            txtboxPassword.TabIndex = 2;
             // 
             // txtboxUsername
             // 
             txtboxUsername.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            txtboxUsername.Location = new Point(44, 44);
+            txtboxUsername.Location = new Point(14, 43);
             txtboxUsername.Name = "txtboxUsername";
             txtboxUsername.PlaceholderText = "Username";
-            txtboxUsername.Size = new Size(220, 39);
-            txtboxUsername.TabIndex = 2;
+            txtboxUsername.Size = new Size(272, 39);
+            txtboxUsername.TabIndex = 1;
             // 
             // lblPassword
             // 
             lblPassword.AutoSize = true;
             lblPassword.BackColor = Color.Gainsboro;
             lblPassword.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            lblPassword.Location = new Point(44, 103);
+            lblPassword.Location = new Point(14, 102);
             lblPassword.Name = "lblPassword";
             lblPassword.Size = new Size(70, 20);
             lblPassword.TabIndex = 8;
@@ -148,10 +177,10 @@
             // 
             // lblLogin
             // 
-            lblLogin.BackColor = Color.DeepSkyBlue;
+            lblLogin.BackColor = Color.LightBlue;
             lblLogin.Dock = DockStyle.Fill;
             lblLogin.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            lblLogin.ForeColor = Color.White;
+            lblLogin.ForeColor = Color.Black;
             lblLogin.Location = new Point(0, 0);
             lblLogin.Name = "lblLogin";
             lblLogin.Size = new Size(300, 62);
@@ -168,32 +197,11 @@
             picboxLogo.TabIndex = 9;
             picboxLogo.TabStop = false;
             // 
-            // lstTest
-            // 
-            lstTest.FormattingEnabled = true;
-            lstTest.ItemHeight = 15;
-            lstTest.Location = new Point(12, 22);
-            lstTest.Name = "lstTest";
-            lstTest.Size = new Size(287, 199);
-            lstTest.TabIndex = 10;
-            // 
-            // btnTest
-            // 
-            btnTest.Location = new Point(362, 115);
-            btnTest.Name = "btnTest";
-            btnTest.Size = new Size(75, 23);
-            btnTest.TabIndex = 11;
-            btnTest.Text = "Load";
-            btnTest.UseVisualStyleBackColor = true;
-            btnTest.Click += btnTest_Click;
-            // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(834, 461);
-            Controls.Add(btnTest);
-            Controls.Add(lstTest);
             Controls.Add(picboxLogo);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -201,6 +209,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmLogin";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -221,7 +230,7 @@
         private Panel panel2;
         private Label lblLogin;
         private PictureBox picboxLogo;
-        private ListBox lstTest;
-        private Button btnTest;
+        private Button btnHidepassword;
+        private Button btnShowpassword;
     }
 }

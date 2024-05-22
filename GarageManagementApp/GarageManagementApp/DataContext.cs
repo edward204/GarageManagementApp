@@ -8,6 +8,7 @@ namespace GarageManagementApp
     {
 
         public DbSet<Login> Login { get; set; }
+        public DbSet<Customer> Customer { get; set; }
 
         public string DbPath { get; private set; }
 

@@ -81,7 +81,6 @@ C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManag
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.csproj.CopyComplete
 C:\Users\edwar\Source\Repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\ldmc.db
 C:\Users\edwar\Source\Repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\GarageManagementApp.exe
 C:\Users\edwar\Source\Repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\GarageManagementApp.dll.config
@@ -152,3 +151,10 @@ C:\Users\edwar\Source\Repos\GarageManagementApp\GarageManagementApp\GarageManage
 C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmMainMenu.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.sourcelink.json
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageMa.05840362.Up2Date
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmCustomers.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmHome.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmJobs.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmVehicles.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmCreateCustomer.resources

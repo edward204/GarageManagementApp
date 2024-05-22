@@ -53,7 +53,9 @@ namespace GarageManagementApp
                 {
                     MessageBox.Show("Your passwords don't match!");
                 }
+                
         }
+
 
         private void lnklblLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

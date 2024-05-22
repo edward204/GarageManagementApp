@@ -232,9 +232,10 @@
             // 
             // lblUsercreation
             // 
+            lblUsercreation.BackColor = Color.LightBlue;
             lblUsercreation.Dock = DockStyle.Fill;
             lblUsercreation.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            lblUsercreation.ForeColor = Color.White;
+            lblUsercreation.ForeColor = Color.Black;
             lblUsercreation.Location = new Point(0, 0);
             lblUsercreation.Name = "lblUsercreation";
             lblUsercreation.Size = new Size(300, 62);

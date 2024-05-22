@@ -15,33 +15,6 @@ namespace GarageManagementApp
             frmRegistration.Show();
         }
 
-        private void btnTest_Click(object sender, EventArgs e)
-        {
-            var context = new DataContext();
-
-            // if the connection to the database is successful
-            if (context.Database.CanConnect())
-            {
-
-                // clear the list
-                lstTest.Items.Clear();
-
-                // get the first 100 results
-                var result = context.Login.Take(100);
-
-                // loop the results from the database
-                foreach (var item in result)
-                {
-                    // add the firstname to the listbox
-                    lstTest.Items.Add(item.Login_firstname);
-
-                }
-
-                // alert the user that all is well
-                MessageBox.Show("Items Loaded Successfully!");
-
-            }
-        }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -80,6 +53,10 @@ namespace GarageManagementApp
                         Form frmMainMenu = new frmMainMenu();
                         frmMainMenu.Show();
 
+                        // Clear the text boxes
+                        txtboxUsername.Clear();
+                        txtboxPassword.Clear();
+
                     }
                     else
                     {
@@ -101,6 +78,24 @@ namespace GarageManagementApp
 
             // alert the user that the details they provided are incorrect
             MessageBox.Show("Invalid Credentials Supplied!");
+        }
+
+        private void btnHidepassword_Click(object sender, EventArgs e)
+        {
+            if (txtboxPassword.PasswordChar == '\0')
+            {
+                btnShowpassword.BringToFront();
+                txtboxPassword.PasswordChar = '*';
+            }
+        }
+
+        private void btnShowpassword_Click(object sender, EventArgs e)
+        {
+            if (txtboxPassword.PasswordChar == '*')
+            {
+                btnHidepassword.BringToFront();
+                txtboxPassword.PasswordChar = '\0';
+            }
         }
     }
 }
