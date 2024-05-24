@@ -187,9 +187,12 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmCreateVehicle";
+            StartPosition = FormStartPosition.CenterScreen;
+            FormClosing += frmCreateVehicle_FormClosing;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

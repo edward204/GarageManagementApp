@@ -28,17 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHome));
+            lblUsername = new Label();
+            panel1 = new Panel();
+            panel3 = new Panel();
+            panel2 = new Panel();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // lblUsername
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(614, 333);
-            label1.Name = "label1";
-            label1.Size = new Size(42, 15);
-            label1.TabIndex = 0;
-            label1.Text = "HOME";
+            lblUsername.AutoSize = true;
+            lblUsername.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblUsername.Location = new Point(115, 7);
+            lblUsername.Name = "lblUsername";
+            lblUsername.Size = new Size(95, 25);
+            lblUsername.TabIndex = 0;
+            lblUsername.Text = "username";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.LightBlue;
+            panel1.Controls.Add(panel3);
+            panel1.Controls.Add(panel2);
+            panel1.Location = new Point(875, 12);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(348, 332);
+            panel1.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.BackgroundImage = (Image)resources.GetObject("panel3.BackgroundImage");
+            panel3.Location = new Point(3, 48);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(342, 280);
+            panel3.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(lblUsername);
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(342, 39);
+            panel2.TabIndex = 2;
             // 
             // frmHome
             // 
@@ -46,18 +81,24 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1235, 753);
             ControlBox = false;
-            Controls.Add(label1);
+            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             Name = "frmHome";
             ShowIcon = false;
             ShowInTaskbar = false;
+            Load += frmHome_Load;
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Label lblUsername;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }

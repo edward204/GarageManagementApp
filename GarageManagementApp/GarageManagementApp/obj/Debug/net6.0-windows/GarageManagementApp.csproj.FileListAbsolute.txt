@@ -159,3 +159,13 @@ C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManag
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmVehicles.resources
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmCreateCustomer.resources
 C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Vehicles.frmCreateVehicle.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmCreateCustomer.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmCustomers.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmHome.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmMainMenu.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmJobs.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Vehicles.frmCreateVehicle.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.frmVehicles.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Users.frmUsers.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmEditCustomer.resources
+C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Vehicles.frmEditVehicle.resources

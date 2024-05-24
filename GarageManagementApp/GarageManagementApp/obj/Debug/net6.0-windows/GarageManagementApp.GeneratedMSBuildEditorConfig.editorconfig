@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GarageManagementApp
-build_property.ProjectDir = C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\
+build_property.ProjectDir = C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

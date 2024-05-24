@@ -1234,24 +1234,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EG\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\edwar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
+      "projectUniqueName": "C:\\Users\\edwar\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
       "projectName": "GarageManagementApp",
-      "projectPath": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
-      "packagesPath": "C:\\Users\\EG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EG\\Documents\\GitHub\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\obj\\",
+      "projectPath": "C:\\Users\\edwar\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp.csproj",
+      "packagesPath": "C:\\Users\\edwar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edwar\\source\\repos\\GarageManagementApp\\GarageManagementApp\\GarageManagementApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\EG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\edwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

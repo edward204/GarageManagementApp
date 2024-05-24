@@ -79,5 +79,11 @@ namespace GarageManagementApp
         {
             RefreshGrid();
         }
+
+        private void btnEditCustomer_Click(object sender, EventArgs e)
+        {
+            Form frmEditCustomer = new frmEditCustomer();
+            frmEditCustomer.Show();
+        }
     }
 }

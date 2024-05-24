@@ -26,31 +26,37 @@ namespace GarageManagementApp.Customers
 
             // if the connection to the database is successful
             if (context.Database.CanConnect())
-            {
-                //setup the new object read for insertion
-                var Customer = new Customer();
-                Customer.Customer_firstname = txtboxFirstname.Text;
-                Customer.Customer_surname = txtboxLastname.Text;
-                Customer.Customer_address = txtboxAddress.Text;
-                Customer.Customer_city = txtboxCity.Text;
-                Customer.Customer_phone = txtboxPhone.Text;
-                Customer.Customer_email = txtboxEmail.Text;
+               if (txtboxFirstname.Text != "" &&  txtboxLastname.Text != "" && txtboxAddress.Text != "" 
+                    && txtboxCity.Text != "" && txtboxPhone.Text != "" && txtboxEmail.Text != "")
+                {
+                    //setup the new object read for insertion
+                    var Customer = new Customer();
+                    Customer.Customer_firstname = txtboxFirstname.Text;
+                    Customer.Customer_surname = txtboxLastname.Text;
+                    Customer.Customer_address = txtboxAddress.Text;
+                    Customer.Customer_city = txtboxCity.Text;
+                    Customer.Customer_phone = txtboxPhone.Text;
+                    Customer.Customer_email = txtboxEmail.Text;
 
-                // once the object is built insert it into the database
-                context.Customer.Add(Customer);
-                context.SaveChanges();
+                    // once the object is built insert it into the database
+                    context.Customer.Add(Customer);
+                    context.SaveChanges();
 
-                // display a success message
-                MessageBox.Show("Customer added successfully!");
+                    // display a success message
+                    MessageBox.Show("Customer added successfully!");
 
-                // clear the text boxes
-                txtboxFirstname.Clear();
-                txtboxLastname.Clear();
-                txtboxAddress.Clear();
-                txtboxCity.Clear();
-                txtboxPhone.Clear();
-                txtboxEmail.Clear();
-            }
+                    // clear the text boxes
+                    txtboxFirstname.Clear();
+                    txtboxLastname.Clear();
+                    txtboxAddress.Clear();
+                    txtboxCity.Clear();
+                    txtboxPhone.Clear();
+                    txtboxEmail.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Some input fields are left blank, please try again!");
+                } 
         }
 
         private void frmCreateCustomer_FormClosing(object sender, FormClosingEventArgs e)

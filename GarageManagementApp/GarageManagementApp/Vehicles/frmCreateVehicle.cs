@@ -8,18 +8,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 namespace GarageManagementApp.Vehicles
 {
     public partial class frmCreateVehicle : Form
     {
-        public frmCreateVehicle()
+        private frmVehicles mainForm = null;
+        public frmCreateVehicle(frmVehicles callingForm)
         {
             InitializeComponent();
+            mainForm = callingForm;
         }
 
         private void btnCreatevehicle_Click(object sender, EventArgs e)
         {
+            // regular expression to validate for proper UK number plates
+            Regex regex = new Regex("^(?=.{ 1, 7 })(([a - zA - Z] ?){ 1,3} (\\d){ 1,3} ([a - zA - Z] ?){ 1,3})$");
+            bool isValid = regex.IsMatch(txtboxRegplate.Text);
+            if (!isValid)
+            {
+                MessageBox.Show("Please enter a valid reg plate");
+            } 
             var context = new DataContext();
 
             // if the connection to the database is successful
@@ -42,9 +52,14 @@ namespace GarageManagementApp.Vehicles
                 // clear the text boxes
                 txtboxVehiclemake.Clear();
                 txtboxVehiclemodel.Clear();
-                txtboxRegplate.Clear(); 
+                txtboxRegplate.Clear();
                 txtboxVehiclecolour.Clear();
             }
+        }
+
+        private void frmCreateVehicle_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            mainForm.RefreshGrid();
         }
     }
 }

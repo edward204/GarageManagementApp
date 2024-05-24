@@ -4,6 +4,7 @@ namespace GarageManagementApp
 {
     public partial class frmLogin : Form
     {
+        public static string? username;
         public frmLogin()
         {
             InitializeComponent();
@@ -49,6 +50,8 @@ namespace GarageManagementApp
                         // login successful
                         MessageBox.Show("Login Successful");
 
+                        username = txtboxUsername.Text;
+
                         // go to main menu
                         Form frmMainMenu = new frmMainMenu();
                         frmMainMenu.Show();
@@ -74,8 +77,6 @@ namespace GarageManagementApp
 
         private void IncorrectDetails()
         {
-            // clear the inputs so that they can try again?
-
             // alert the user that the details they provided are incorrect
             MessageBox.Show("Invalid Credentials Supplied!");
         }

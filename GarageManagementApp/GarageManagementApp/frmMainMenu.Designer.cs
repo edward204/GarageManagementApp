@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainMenu));
             panel1 = new Panel();
             btnLogout = new Button();
-            button5 = new Button();
+            btnUsers = new Button();
             btnJobs = new Button();
             btnVehicles = new Button();
             btnCustomers = new Button();
@@ -49,7 +49,7 @@
             // 
             panel1.BackColor = Color.FromArgb(64, 64, 64);
             panel1.Controls.Add(btnLogout);
-            panel1.Controls.Add(button5);
+            panel1.Controls.Add(btnUsers);
             panel1.Controls.Add(btnJobs);
             panel1.Controls.Add(btnVehicles);
             panel1.Controls.Add(btnCustomers);
@@ -78,21 +78,22 @@
             btnLogout.UseVisualStyleBackColor = true;
             btnLogout.Click += btnLogout_Click;
             // 
-            // button5
+            // btnUsers
             // 
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.ForeColor = Color.White;
-            button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(12, 438);
-            button5.Name = "button5";
-            button5.Size = new Size(218, 50);
-            button5.TabIndex = 7;
-            button5.Text = "       Example";
-            button5.TextImageRelation = TextImageRelation.ImageBeforeText;
-            button5.UseVisualStyleBackColor = true;
+            btnUsers.FlatAppearance.BorderSize = 0;
+            btnUsers.FlatStyle = FlatStyle.Flat;
+            btnUsers.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            btnUsers.ForeColor = Color.White;
+            btnUsers.Image = (Image)resources.GetObject("btnUsers.Image");
+            btnUsers.ImageAlign = ContentAlignment.MiddleLeft;
+            btnUsers.Location = new Point(12, 438);
+            btnUsers.Name = "btnUsers";
+            btnUsers.Size = new Size(218, 50);
+            btnUsers.TabIndex = 7;
+            btnUsers.Text = "       Users";
+            btnUsers.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnUsers.UseVisualStyleBackColor = true;
+            btnUsers.Click += btnUsers_Click;
             // 
             // btnJobs
             // 
@@ -226,7 +227,7 @@
         private Panel panel4;
         private PictureBox pictureBox2;
         private Button btnHome;
-        private Button button5;
+        private Button btnUsers;
         private Button btnJobs;
         private Button btnVehicles;
         private Button btnCustomers;

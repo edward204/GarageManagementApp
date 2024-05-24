@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GarageManagementApp.Users;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,7 @@ namespace GarageManagementApp
         frmCustomers customers;
         frmVehicles vehicles;
         frmJobs jobs;
+        frmUsers user1;
         public frmMainMenu()
         {
             InitializeComponent();
@@ -114,6 +116,30 @@ namespace GarageManagementApp
         {
             jobs = null;
         }
+
+        // go to Users when you click this button
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            if (user1 == null)
+            {
+                user1 = new frmUsers();
+                user1.FormClosed += User1_FormClosed;
+                user1.MdiParent = this;
+                user1.Dock = DockStyle.Fill;
+                user1.Show();
+            }
+            else
+            {
+                user1.Activate();
+            }
+        }
+
+        private void User1_FormClosed(object? sender, FormClosedEventArgs e)
+        {
+            user1 = null;
+        }
+
+
 
 
         // Log out button 

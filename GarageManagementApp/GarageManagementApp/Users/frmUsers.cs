@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GarageManagementApp
+namespace GarageManagementApp.Users
 {
-    public partial class frmHome : Form
+    public partial class frmUsers : Form
     {
-        public frmHome()
+        public frmUsers()
         {
             InitializeComponent();
-        }
-
-        private void frmHome_Load(object sender, EventArgs e)
-        {
-            lblUsername.Text = "Hello, " + frmLogin.username;
         }
     }
 }
