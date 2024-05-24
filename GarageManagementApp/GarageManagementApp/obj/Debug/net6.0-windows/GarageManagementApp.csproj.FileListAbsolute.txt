@@ -169,3 +169,7 @@ C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManage
 C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Users.frmUsers.resources
 C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmEditCustomer.resources
 C:\Users\edwar\source\repos\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Vehicles.frmEditVehicle.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Customers.frmEditCustomer.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Users.frmUsers.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Vehicles.frmEditVehicle.resources
+C:\Users\EG\Documents\GitHub\GarageManagementApp\GarageManagementApp\GarageManagementApp\obj\Debug\net6.0-windows\GarageManagementApp.Jobs.frmCreateJob.resources
